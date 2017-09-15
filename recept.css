@@ -1,0 +1,90 @@
+body {
+    background-image: url("sushi_rolls_1600x900.jpg");
+    background-attachment: fixed;
+}
+header {
+    background-color: limegreen;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 30px;
+    border-style: solid;
+    border-color: #333;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+h1  {
+    font-family: 'Montserrat', sans-serif;
+}
+h2  {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+p   {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px
+}
+li  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px
+}
+#intro {
+    font-weight: normal;
+}
+#wassen {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+#koken {
+    width: 115px;
+    height: auto;
+    float: right;
+}
+#koelen {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+#Nigiri {
+    width: 140px;
+    height: auto;
+    float: right;
+}
+.all {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+}
+section{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.voorbeelden {
+    width: 150px;
+    height: auto;
+    padding-left: 40px
+}
+.column {
+    float: left;
+    padding: 20px;
+}
+ul.a {
+    list-style-type: inside;
+}
+.column.side {
+    width: 200px;
+    padding-top: 0px;
+}
+.column.middle {
+    width: 550px;
+    padding-top: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
